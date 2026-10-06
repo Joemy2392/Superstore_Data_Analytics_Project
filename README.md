@@ -60,12 +60,12 @@ A retail business needs to know **what drives revenue, where profit is being los
 
 | # | File | Description |
 |---|---|---|
-| 1 | [`1_Superstore_Dataset.csv`](./1_Superstore_Dataset.csv) | Raw dataset (9,994 rows × 21 columns), sourced from Kaggle |
-| 2 | [`2_Superstore_DataCleaning.ipynb`](./2_Superstore_DataCleaning.ipynb) | Data cleaning, validation and feature-engineering notebook |
-| 3 | [`3_Cleaned_Superstore_Dataset.csv`](./3_Cleaned_Superstore_Dataset.csv) | Analysis-ready dataset (9,986 rows × 27 columns) |
-| 4 | [`4_EDA_Visualization_Superstore.ipynb`](./4_EDA_Visualization_Superstore.ipynb) | Exploratory analysis and 10 business questions with visualizations |
-| 5 | [`5_Superstore_Dashboard.py`](./5_Superstore_Dashboard.py) | Interactive Plotly Dash dashboard (filters, KPIs, 8 charts, CSV export) |
-| 6 | [`Superstore_Data_Analytics_Project_Report.docx`](./Superstore_Data_Analytics_Project_Report.docx) | Written project report: methodology, insights, challenges |
+| 1 | [`1_Superstore_Dataset.csv`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/1.Superstore_Dataset.csv) | Raw dataset (9,994 rows × 21 columns), sourced from Kaggle |
+| 2 | [`2_Superstore_DataCleaning.ipynb`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/2.Superstore_DataCleaning.ipynb) | Data cleaning, validation and feature-engineering notebook |
+| 3 | [`3_Cleaned_Superstore_Dataset.csv`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/3.Cleaned_Superstore_Dataset.csv) | Analysis-ready dataset (9,986 rows × 27 columns) |
+| 4 | [`4_EDA_Visualization_Superstore.ipynb`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/4.EDA_Visualization_Superstore.ipynb) | Exploratory analysis and 10 business questions with visualizations |
+| 5 | [`5_Superstore_Dashboard.py`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/1.Superstore_Dataset.csv5.Superstore_Dashboard.py) | Interactive Plotly Dash dashboard (filters, KPIs, 8 charts, CSV export) |
+| 6 | [`Superstore_Data_Analytics_Project_Report.docx`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/Superstore_Data_Analytics_Project_Report.docx) | Written project report: methodology, insights, challenges |
 
 > 💡 **Tip:** GitHub renders `.ipynb` files directly in the browser, so you can read both notebooks (including charts) without installing anything.
 
