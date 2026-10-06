@@ -65,9 +65,8 @@ A retail business needs to know **what drives revenue, where profit is being los
 | 3 | [`3_Cleaned_Superstore_Dataset.csv`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/3.Cleaned_Superstore_Dataset.csv) | Analysis-ready dataset (9,986 rows × 27 columns) |
 | 4 | [`4_EDA_Visualization_Superstore.ipynb`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/4.EDA_Visualization_Superstore.ipynb) | Exploratory analysis and 10 business questions with visualizations |
 | 5 | [`5_Superstore_Dashboard.py`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/1.Superstore_Dataset.csv5.Superstore_Dashboard.py) | Interactive Plotly Dash dashboard (filters, KPIs, 8 charts, CSV export) |
-| 6 | [`Superstore_Data_Analytics_Project_Report.docx`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/Superstore_Data_Analytics_Project_Report.docx) | Written project report: methodology, insights, challenges |
+| 6 | [`Superstore_Data_Analytics_Project_Report.pdf`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/Superstore_Data_Analytics_Project_Report.docx) | Written project report: methodology, insights, challenges |
 
-> 💡 **Tip:** GitHub renders `.ipynb` files directly in the browser, so you can read both notebooks (including charts) without installing anything.
 
 ---
 
@@ -248,9 +247,10 @@ File: [`5_Superstore_Dashboard.py`](https://github.com/Joemy2392/Superstore_Data
   8. Sales breakdown: category → sub-category (sunburst)
 - **Export button:** downloads the currently filtered data as CSV
 
-<!-- Add your screenshots here after running the dashboard:
-![Dashboard Overview](./images/dashboard_overview.png)
--->
+
+![Dashboard Overview](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/SuperstoreDashboard.png)
+![Dashboard Overview](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/SuperstoreDashboard.png)
+
 
 ---
 
