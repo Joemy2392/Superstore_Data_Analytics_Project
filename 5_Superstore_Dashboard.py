@@ -15,7 +15,8 @@ from flask import request
 
 # 2. Load cleaned Superstore Dataset
 #--------------------------------------------------------------
-file_path = r"C:\Users\emman\OneDrive\Desktop\hero\project\1.Completed\Superstore_Data_Analytics_Project\3.Cleaned_Superstore_Dataset.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(BASE_DIR, "3_Cleaned_Superstore_Dataset.csv")
 df = pd.read_csv(file_path)
 
 
@@ -23,7 +24,7 @@ df = pd.read_csv(file_path)
 #-----------------------------------------------------------------------------
 app = dash.Dash(__name__)
 app.title = "Superstore Sales Dashboard"
-
+server = app.server   # Exposed to gunicorn for rendering
 
 
 # 4. Define/Build Dash App Layout
@@ -265,8 +266,6 @@ def export_data(n_clicks, selected_year, selected_category, selected_region, sel
     return dcc.send_data_frame(export_df.to_csv, f"Superstore_Data_{selected_region}_{selected_segment}_{selected_category}_{selected_year}.csv", index=False)
 
 
-
-server = app.server
 
 # 7. Run the application
 #----------------------------------------------------------------------------
