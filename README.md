@@ -248,7 +248,7 @@ File: [`5_Superstore_Dashboard.py`](https://github.com/Joemy2392/Superstore_Data
 - **Export button:** downloads the currently filtered data as CSV
 
 
-![Dashboard Overview](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/SuperstoreDashboard.png)
+![Dashboard Overview](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/Superstore_Dashboard.png)
 ![Dashboard Overview](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/SuperstoreDashboard.png)
 
 
