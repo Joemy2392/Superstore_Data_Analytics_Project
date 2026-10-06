@@ -250,7 +250,7 @@ File: [`5_Superstore_Dashboard.py`](https://github.com/Joemy2392/Superstore_Data
 
 ![Dashboard Overview](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/Superstore_Dashboard.png)
 ![Dashboard Overview](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/SuperstoreDashboard.png)
-![Dashboard Overview](https://superstore-data-analytics-project-4.onrender.com/)
+![https://superstore-data-analytics-project-4.onrender.com/](https://superstore-data-analytics-project-4.onrender.com/)
 
 
 ---
