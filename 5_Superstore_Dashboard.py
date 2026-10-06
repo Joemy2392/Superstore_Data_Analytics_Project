@@ -5,12 +5,11 @@
 # 1. Import required libraries
 #-------------------------------------------------------------
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
 import dash
 from dash import dcc, html, Input, Output, State
-from flask import request
+import os
 
 
 # 2. Load cleaned Superstore Dataset
