@@ -1,4 +1,4 @@
-# 🛒 Superstore Sales & Profit Analysis — From Raw Data to Interactive Dashboard
+# 🛒 Superstore Sales & Profit Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-150458?logo=pandas&logoColor=white)
@@ -114,8 +114,10 @@ A retail business needs to know **what drives revenue, where profit is being los
 ## 🔄 Workflow
 
 ```
-Business Understanding → Data Collection → Cleaning & Validation → Feature Engineering
-        → EDA & Visualization → Interactive Dashboard → Insights & Recommendations
+1. Business Understanding → 2. Data Collection
+→ 3. Cleaning & Validation → 4. Feature Engineering
+→ 5. EDA & Visualization → 6. Interactive Dashboard
+→ 7. Insights & Recommendations
 ```
 
 ---
@@ -213,7 +215,6 @@ Every discount above 20% is destroying value. Discount has a negative correlatio
 
 Standard Class carries ~59% of sales; ship mode has no material effect on profitability.
 
-> 📌 Figures above were recomputed from [`3_Cleaned_Superstore_Dataset.csv`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/3.Cleaned_Superstore_Dataset.csv) and match the EDA notebook.
 
 ---
 
@@ -286,8 +287,6 @@ python 5_Superstore_Dashboard.py
 ```
 Open **http://127.0.0.1:2392/** in your browser.
 
-> ⚠️ The notebooks also contain local file paths for loading and saving data. Update them to relative paths (e.g. `"1_Superstore_Dataset.csv"`) when running on your own machine.
-
 ---
 
 ## 🧠 Challenges & Lessons Learned
@@ -347,9 +346,8 @@ superstore-analytics/
 ## 👤 Author
 
 **Emmanuel JOseph** — Data Analyst
-
-- GitHub: [@your-username](https://github.com/joemy2392)
-- LinkedIn: [your-linkedin](https://www.linkedin.com/in/emman-joseph)
+- GitHub: https://github.com/joemy2392
+- LinkedIn: https://www.linkedin.com/in/emman-joseph
 - Email: ejoseph2392@gmail.com
 
 ⭐ If you found this project useful, please consider giving it a star!
