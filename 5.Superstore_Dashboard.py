@@ -265,6 +265,9 @@ def export_data(n_clicks, selected_year, selected_category, selected_region, sel
     return dcc.send_data_frame(export_df.to_csv, f"Superstore_Data_{selected_region}_{selected_segment}_{selected_category}_{selected_year}.csv", index=False)
 
 
+
+server = app.server
+
 # 7. Run the application
 #----------------------------------------------------------------------------
 if __name__ == '__main__':
