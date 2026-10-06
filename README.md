@@ -122,7 +122,7 @@ Business Understanding → Data Collection → Cleaning & Validation → Feature
 
 ## 🧹 Data Cleaning & Feature Engineering
 
-Notebook: [`2_Superstore_DataCleaning.ipynb`](./2_Superstore_DataCleaning.ipynb)
+Notebook: [`2_Superstore_DataCleaning.ipynb`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/2.Superstore_DataCleaning.ipynb)
 
 | Step | Action | Outcome |
 |---|---|---|
@@ -133,13 +133,13 @@ Notebook: [`2_Superstore_DataCleaning.ipynb`](./2_Superstore_DataCleaning.ipynb)
 | Duplicate Order ID + Product ID pairs | Averaged `Sales`, `Quantity` and `Profit` across the repeated lines, then kept one row | 8 redundant rows removed (9,994 → 9,986) |
 | Product ID ↔ Product Name conflicts | Found 32 Product IDs mapped to two names; standardized each to its most frequent name | One name per Product ID (validated with `nunique() == 1`) |
 | Feature engineering | Added `Year`, `Month`, `Day`, `Month_Year`, `Profit_Margin`, `Ship Days` | 6 new analytical columns |
-| Export | Saved UTF-8 CSV | [`3_Cleaned_Superstore_Dataset.csv`](./3_Cleaned_Superstore_Dataset.csv) |
+| Export | Saved UTF-8 CSV | [`3_Cleaned_Superstore_Dataset.csv`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/3.Cleaned_Superstore_Dataset.csv) |
 
 ---
 
 ## 🔍 Exploratory Data Analysis
 
-Notebook: [`4_EDA_Visualization_Superstore.ipynb`](./4_EDA_Visualization_Superstore.ipynb)
+Notebook: [`4_EDA_Visualization_Superstore.ipynb`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/4.EDA_Visualization_Superstore.ipynb)
 
 The EDA is organized around **10 business questions**, each paired with a purpose-chosen chart:
 
@@ -213,7 +213,7 @@ Every discount above 20% is destroying value. Discount has a negative correlatio
 
 Standard Class carries ~59% of sales; ship mode has no material effect on profitability.
 
-> 📌 Figures above were recomputed from [`3_Cleaned_Superstore_Dataset.csv`](./3_Cleaned_Superstore_Dataset.csv) and match the EDA notebook.
+> 📌 Figures above were recomputed from [`3_Cleaned_Superstore_Dataset.csv`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/3.Cleaned_Superstore_Dataset.csv) and match the EDA notebook.
 
 ---
 
@@ -230,7 +230,7 @@ Standard Class carries ~59% of sales; ship mode has no material effect on profit
 
 ## 📈 Interactive Dashboard
 
-File: [`5_Superstore_Dashboard.py`](./5_Superstore_Dashboard.py) — built with **Plotly Dash**.
+File: [`5_Superstore_Dashboard.py`](https://github.com/Joemy2392/Superstore_Data_Analytics_Project/blob/main/5.Superstore_Dashboard.py) — built with **Plotly Dash**.
 
 **Features**
 
@@ -314,7 +314,6 @@ Open **http://127.0.0.1:2392/** in your browser.
 | Visualization | Plotly Express, Matplotlib |
 | Dashboard | Dash (Plotly) |
 | Environment | Jupyter Notebook |
-| Reporting | Microsoft Word |
 
 ---
 
@@ -327,7 +326,8 @@ superstore-analytics/
 ├── 3_Cleaned_Superstore_Dataset.csv
 ├── 4_EDA_Visualization_Superstore.ipynb
 ├── 5_Superstore_Dashboard.py
-├── Superstore_Data_Analytics_Project_Report.docx
+├── Superstore_Data_Analytics_Project_Report.pdf
+├── requirements.txt
 └── README.md
 ```
 
@@ -346,11 +346,11 @@ superstore-analytics/
 
 ## 👤 Author
 
-**Emmanuel** — Data Analyst
+**Emmanuel JOseph** — Data Analyst
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://www.linkedin.com/in/your-linkedin)
-- Email: your.email@example.com
+- GitHub: [@your-username](https://github.com/joemy2392)
+- LinkedIn: [your-linkedin](https://www.linkedin.com/in/emman-joseph)
+- Email: ejoseph2392@gmail.com
 
 ⭐ If you found this project useful, please consider giving it a star!
 
